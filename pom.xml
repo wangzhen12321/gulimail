@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wz</groupId>
-    <artifactId>gilimail</artifactId>
+    <artifactId>gilimall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gilimail</name>
+    <name>gilimall</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
 
@@ -16,6 +16,9 @@
         <module>ware</module>
         <module>order</module>
         <module>product</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>common</module>
     </modules>
 
 
