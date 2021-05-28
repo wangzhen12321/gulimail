@@ -5,6 +5,13 @@ spring:
     url: jdbc:mysql://121.196.244.33/gulimall_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.jdbc.Driver
 
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 121.196.244.33:8848
+  application:
+    name: coupon
+
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
