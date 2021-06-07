@@ -76,5 +76,11 @@
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2020.0.RC1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-bootstrap:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-rsa:1.0.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.64" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.64" level="project" />
   </component>
 </module>

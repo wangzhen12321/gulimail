@@ -33,12 +33,6 @@ spring:
                     config:
                         multi-statement-allow: true
 
-    cloud:
-        nacos:
-            discovery:
-                server-addr: 121.196.244.33:8848
-    application:
-        name: renren-fast
 ##多数据源的配置
 #dynamic:
 #  datasource:

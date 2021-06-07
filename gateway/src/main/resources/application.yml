@@ -1,0 +1,31 @@
+# nacos注册
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 121.196.244.33:8848
+
+# 路由规则
+    gateway:
+      routes:
+        - id: baidu_route
+          uri: https://www.baidu.com
+          predicates:
+            - Query=url,baidu
+
+        - id: qq_route
+          uri: https://www.qq.com
+          predicates:
+            - Query=url,qq
+
+  application:
+    name: gateway
+
+
+
+
+
+server:
+  port: 88
+
+
